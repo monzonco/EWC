@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3771c94d-e874-4118-ba78-6d923daae08d}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>alphabeticalPage.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <TestFramework>Pytest</TestFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="minutes.html" />
+    <Content Include="minutes.txt" />
+    <Content Include="minutes4.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="alphabeticalPage.py" />
+    <Compile Include="carla_make_page.py" />
+    <Compile Include="carla_make_pagefirst.py" />
+    <Compile Include="combo_exanoke.py" />
+    <Compile Include="createDB.py" />
+    <Compile Include="createEWCDB .py" />
+    <Compile Include="create_Professionals_DB.py" />
+    <Compile Include="DelfStack_01.py" />
+    <Compile Include="DelfStack_04.py" />
+    <Compile Include="DelfStact_03.py" />
+    <Compile Include="DeskStack_02.py" />
+    <Compile Include="ewcResident.py" />
+    <Compile Include="getTextfromEntry.py" />
+    <Compile Include="gui_one.py" />
+    <Compile Include="gui_two.py" />
+    <Compile Include="make_page.py" />
+    <Compile Include="minutes.py" />
+    <Compile Include="PropertyRevisio.py" />
+    <Compile Include="ReadEWC.py" />
+    <Compile Include="run_consel_group.py" />
+    <Compile Include="script.py" />
+    <Compile Include="script01.py" />
+    <Compile Include="street_page.py" />
+    <Compile Include="test1.py" />
+    <Compile Include="test2.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
